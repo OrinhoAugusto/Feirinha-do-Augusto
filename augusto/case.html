@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feirinha do Augusto</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <header>
+        <h2>Feirinha do Augusto</h2>
+    </header>
+
+    <div class="container">
+        <label>Selecione o seu produto:</label>
+        <br>
+        <div class="div-produtos">
+            <label>
+            <input type="radio" name="hamburgues"
+            onclick ="verificarProduto('hb1')">
+            Hambúrguer Simples
+            </label>
+            <label>
+            <input type="radio" name="hamburgues"
+            onclick ="verificarProduto('hb2')">
+            Hambúrguer Duplo
+            </label>
+            <label>
+            <input type="radio" name="hamburgues"
+            onclick ="verificarProduto('hb3')">
+            Hambúrguer Triplo
+            </label>
+            <label>
+            <input type="radio" name="hamburgues"
+            onclick ="verificarProduto('hb4')">
+            Hambúrguer Bacon
+            </label>
+        </div>
+        <p id="resultado"></p>
+    </div>
+    <script src="./js/case.js"></script>
+    <footer>
+        <ul type="square">
+            <li>Endereço: <i>Rodovia SC-401, 3730 - Saco Grande, Florianópolis - SC</i></li>
+            <li>CEP: <i>88032-005</i></li>
+            <li>Contato: <i>(48) 3239-5800</i></li>
+        </ul>
+    </footer>
+</body>
+</html>
